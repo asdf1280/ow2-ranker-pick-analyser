@@ -22,7 +22,7 @@ imagemap = {}
 for i in range(MAX_PAGES):
     pic: Image = pyautogui.screenshot()
 
-    y = 300
+    y = 304
     for j in range(0, 10):
         x = 1306
         for k in range(0, 3):
