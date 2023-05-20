@@ -24,15 +24,15 @@ for i in range(MAX_PAGES):
 
     y = 304
     for j in range(0, 10):
-        x = 1306
-        for k in range(0, 3):
+        x = 607
+        for k in range(0, 1):
             cropped = pic.crop((x, y, x + 50, y + 50))
 
             importance = 0
             if k == 0:
-                importance = 3
+                importance = 1
             elif k == 1:
-                importance = 2
+                importance = 1
             else:
                 importance = 1
 
